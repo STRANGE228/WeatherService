@@ -1,0 +1,3 @@
+C:/Users/STRANGE/CLionProjects/WeatherService/cmake-build-debug/CMakeFiles/WeatherService.dir
+C:/Users/STRANGE/CLionProjects/WeatherService/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/STRANGE/CLionProjects/WeatherService/cmake-build-debug/CMakeFiles/rebuild_cache.dir
