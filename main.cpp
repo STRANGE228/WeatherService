@@ -1,6 +1,8 @@
 #include <iostream>
+#include <windows.h>
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    SetConsoleOutputCP(CP_UTF8);
+
     return 0;
 }

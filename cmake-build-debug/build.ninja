@@ -61,6 +61,12 @@ build CMakeFiles/WeatherService.dir/Weather.cpp.obj: CXX_COMPILER__WeatherServic
   OBJECT_DIR = CMakeFiles\WeatherService.dir
   OBJECT_FILE_DIR = CMakeFiles\WeatherService.dir
 
+build CMakeFiles/WeatherService.dir/XmlService.cpp.obj: CXX_COMPILER__WeatherService_unscanned_Debug C$:/Users/STRANGE/CLionProjects/WeatherService/XmlService.cpp || cmake_object_order_depends_target_WeatherService
+  DEP_FILE = CMakeFiles\WeatherService.dir\XmlService.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\WeatherService.dir
+  OBJECT_FILE_DIR = CMakeFiles\WeatherService.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target WeatherService
@@ -69,7 +75,7 @@ build CMakeFiles/WeatherService.dir/Weather.cpp.obj: CXX_COMPILER__WeatherServic
 #############################################
 # Link the executable WeatherService.exe
 
-build WeatherService.exe: CXX_EXECUTABLE_LINKER__WeatherService_Debug CMakeFiles/WeatherService.dir/main.cpp.obj CMakeFiles/WeatherService.dir/Weather.cpp.obj
+build WeatherService.exe: CXX_EXECUTABLE_LINKER__WeatherService_Debug CMakeFiles/WeatherService.dir/main.cpp.obj CMakeFiles/WeatherService.dir/Weather.cpp.obj CMakeFiles/WeatherService.dir/XmlService.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\WeatherService.dir
