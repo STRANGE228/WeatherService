@@ -20,7 +20,7 @@ private:
 public:
     Weather(std::string city, double lon, double lat, double temperature,
             std::string weather, double windSpeed, int clouds);
-    ~Weather();
+    ~Weather(){};
 
     std::string to_string();
     friend std::ostream &operator<<(std::ostream &os, Weather w) {

@@ -8,7 +8,7 @@
 
 #include "Service.h"
 #include "pugixml-1.14/src/pugixml.hpp"
-#include "pugixml-1.14/src/pugixml.cpp"
+
 
 class XmlService : public Service{
 public:
