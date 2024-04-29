@@ -8,4 +8,10 @@ add_executable(WeatherService main.cpp
         Weather.h
         Service.h
         JsonService.cpp
-        JsonService.h)
+        JsonService.h
+        XmlService.cpp
+        XmlService.h
+        pugixml-1.14/src/pugixml.hpp
+        pugixml-1.14/src/pugixml.cpp
+)
+

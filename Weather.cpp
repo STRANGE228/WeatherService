@@ -21,4 +21,3 @@ std::string Weather::to_string() {
                        + std::to_string(windSpeed) + "\nclouds: " + std::to_string(clouds) + "\n";
     return text;
 }
-

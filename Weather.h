@@ -29,7 +29,4 @@ public:
 };
 
 
-
-
-
 #endif //WEATHERSERVICE_WEATHER_H
