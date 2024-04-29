@@ -20,19 +20,16 @@ private:
 public:
     Weather(std::string city, double lon, double lat, double temperature,
             std::string weather, double windSpeed, int clouds);
-    ~Weather();
+    ~Weather(){};
 
-    std::string to_string() {
-        std::string text = "Weather in " + city + "(" + std::to_string(lon) + " " + std::to_string(lat) + "):\n"
-                + "temperature: " + std::to_string(temperature) + "\nweather: " + weather + "\nwind speed: "
-                + std::to_string(windSpeed) + "\nclouds: " + std::to_string(clouds) + "\n";
-        return text;
+    std::string to_string();
+    friend std::ostream &operator<<(std::ostream &os, Weather w) {
+        return os << w.to_string();
     }
-
 };
 
-std::ostream &operator<<(std::ostream &os, Weather w) {
-    return os << w.to_string();
-}
+
+
+
 
 #endif //WEATHERSERVICE_WEATHER_H

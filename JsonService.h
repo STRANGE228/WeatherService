@@ -9,8 +9,9 @@
 #include "Service.h"
 
 class JsonService : public Service {
-    virtual Weather getWeather(std::string s) override;
-    virtual ~JsonService() {};
+public:
+    virtual Weather getWeather(std::string s) override;;
+    virtual ~JsonService() {}
 };
 
 
